@@ -2,7 +2,7 @@
 ;; Running this file returns part of speech tags for the first sentence below
 ;; (PRP MD VB PRP IN DT NNP NNP .)
 ;; (c) JT Wolohan, 2018, GPL 3.0
-(ns playground-clj.core
+(ns WonderfulCoyote.CoreNLPDemo
   (:gen-class)
   (:require [clj-json.core :as json])
   (:import  [edu.stanford.nlp.pipeline StanfordCoreNLP]))
